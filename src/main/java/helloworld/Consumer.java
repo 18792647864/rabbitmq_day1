@@ -1,8 +1,7 @@
 package helloworld;
 
 import com.rabbitmq.client.*;
-import helloworld.utils.RabbitMQUtils;
-import org.junit.Test;
+import utils.RabbitMQUtils;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;

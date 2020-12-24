@@ -2,9 +2,8 @@ package helloworld;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.MessageProperties;
-import helloworld.utils.RabbitMQUtils;
+import utils.RabbitMQUtils;
 import org.junit.Test;
 
 import java.io.IOException;
